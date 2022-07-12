@@ -1,6 +1,8 @@
 ## Comandos dotnet
 
-Crear un proyecto de consola
+Desde el visual studio code abrir la terminal y escribir los siguientes comandos
+
+Crear proyecto de consola
 ```
 dotnet new console -o NOMBRE_PROYECTO
 ```
