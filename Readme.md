@@ -21,3 +21,18 @@ Ejecutar proyecto
 ```
 dotnet run 
 ```
+
+Posicionarse en directorio nivel superior
+```
+cd ..
+```
+
+Crear proyecto de biblioteca
+```
+dotnet new classlib -o NOMBRE_PROYECTO.Biblioteca
+```
+
+Referencia de **proyecto consola** a **proyecto biblioteca**
+```
+dotnet add NOMBRE_PROYECTO/NOMBRE_PROYECTO.csproj reference NOMBRE_PROYECTO.Biblioteca/NOMBRE_PROYECTO.Biblioteca.csproj
+```

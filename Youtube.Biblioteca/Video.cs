@@ -1,4 +1,6 @@
-    internal class Video
+﻿namespace Youtube.Biblioteca;
+
+public class Video
 {
     private string? titulo;
     private int duracion;
@@ -13,7 +15,7 @@
         this.likes = likes;
     }
 
-    internal void Informar()
+    public void Informar()
     {
         Console.WriteLine($"Titulo: {titulo}");
         Console.WriteLine($"Duracion (segundos): {duracion}");

@@ -1,4 +1,6 @@
-﻿Console.Write("Ingrese titulo: ");
+﻿using Youtube.Biblioteca;
+
+Console.Write("Ingrese titulo: ");
 string? titulo = Console.ReadLine();
 Console.Write("Ingrese duracion (en segundos): ");
 int duracion = Convert.ToInt32(Console.ReadLine());
